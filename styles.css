@@ -88,6 +88,10 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+.tagLine {
+  background-color: #222;
+  color: yellow;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -116,7 +120,7 @@ ul.skills {
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
+.aims li:nth-child(odd) {
   background: #0399ff;
 }
 
@@ -151,14 +155,14 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.instagram {
+  background-image: url(images/instagramicon.png);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
+a.facebook {
+  background-image: url(images/facebookicon.png);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(images/githubicon.png);
 }
 a.social:hover {
   opacity: 1;
