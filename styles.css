@@ -120,9 +120,7 @@ ul.skills {
   margin: 2px;
 }
 
-.aims li:nth-child(odd) {
-  background: #0399ff;
-}
+
 
 footer {
   width: 100%;
