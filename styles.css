@@ -76,9 +76,10 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.6) rotate(10deg);
 }
+
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #222;
+  color: green;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -86,13 +87,14 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: green;
 }
 .tagLine {
   background-color: #222;
-  color: yellow;
+  color: green;
 }
 .card {
+  display: inline-block;
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
